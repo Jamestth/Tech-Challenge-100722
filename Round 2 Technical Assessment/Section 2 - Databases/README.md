@@ -8,7 +8,7 @@ This section tackles the 2nd section of the Data Engineer Tech Challenge TAP.
 
 The prompt is as follows:
 >
->You are appointed by a car dealership to create their database infrastructure. There is only one store. In each business day, cars are being sold by a team of salespersons. Each transaction >would contain information on the date and time of transaction, customer transacted with, and the car that was sold.
+>You are appointed by a car dealership to create their database infrastructure. There is only one store. In each business day, cars are being sold by a team of salespersons. Each transaction would contain information on the date and time of transaction, customer transacted with, and the car that was sold.
 >
 >The following are known:
 >
@@ -34,7 +34,7 @@ The prompt is as follows:
 >
 >1. I want to know the list of our customers and their spending.
 >
->2. I want to find out the top 3 car manufacturers that customers bought by sales (quantity) and >the sales number for it in the current month.
+>2. I want to find out the top 3 car manufacturers that customers bought by sales (quantity) and the sales number for it in the current month.
 
 # Additional Assumptions
 
@@ -109,7 +109,7 @@ GROUP BY "b"."CustomerId";
 ```
 
 
-**Task 2:** _I want to find out the top 3 car manufacturers that customers bought by sales (quantity) and >the sales number for it in the current month._
+**Task 2:** _I want to find out the top 3 car manufacturers that customers bought by sales (quantity) and the sales number for it in the current month._
 ```
 SELECT "b"."ManufacturerId", "b"."Name", sum("a"."Price") as "Total Spending", count("a"."SerialNumber") as "Total Sales"
 FROM "Dealership"."Transactions" as a 
