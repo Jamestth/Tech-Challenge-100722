@@ -97,6 +97,6 @@ df_processed["price"] = df_processed["price"].apply(remove_prepend_0)
 
 df_output = df_processed[["first_name", "last_name", "price", "above_100"]]
 
-df_output.to_csv("output.csv", index = False)
+df_output.to_csv("data/output.csv", index = False)
 
 print("Pipeline Finished")
