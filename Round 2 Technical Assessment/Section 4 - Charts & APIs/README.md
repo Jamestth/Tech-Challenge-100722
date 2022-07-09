@@ -6,11 +6,9 @@
 
 
 # Introduction
-This section tackles the 1st section of the Data Engineer Tech Challenge TAP. 
+This section tackles the 4th section of the Data Engineer Tech Challenge TAP. 
 
 The prompt is as follows:
->## Section 4: Charts and APIs
->
 >Your team decided to design a dashboard to display the statistic of COVID19 cases. You are tasked to display one of the components of the dashboard which is to display a visualisation representation of number of COVID19 cases in Singapore over time.
 >
 >Your team decided to use the public data from https://documenter.getpostman.com/view/10808728/SzS8rjbc#b07f97ba-24f4-4ebe-ad71-97fa35f3b683.
@@ -32,7 +30,7 @@ My assumption is that the component will be embedded in some web application. He
 **Choices** <Br>
 For this submission, I extracted the data in a notebook using the requests library.  
 
-I chose to utilise Tableau to visualise the data instead of using matplolib or other pythonic solutions. This is because developing dashboards on Tableau faster and the preset styles are a lot more professional. 
+I chose to utilise Tableau to visualise the data instead of using matplolib or other python-based solutions. This is because developing dashboards on Tableau is faster, the preset styles are a lot more professional and it is easier to add interactive elements. 
 
 **Dashboard** <br>
 ![image info](./Covid_overtime.gif)
@@ -48,10 +46,10 @@ The chart is controlled by two toggles, one for filtering the date range and one
 Due to the interactive nature of Tableau visualisations, users can investigate different periods of the covid-19 pandemic. It is possible that through the inspection of historical periods, it would be possible to gain insight about future outbreaks or identify seasonal trends.
 
 **Possible Improvements** <br>
-However, the level of business value delivered by this dashboard can be further improved. One key idea that may increase value-add may be to add date markers for holidays or important events. I.e. marking where Chinese New Year is on the timeseries might help users to easier draw correlations between the holiday and the periods of outbreak. (In fact, the Feb and Mar 2022 saw the highest number of new cases at around 372k each.)
+The level of business value delivered by this dashboard can be further improved. One key idea that may increase value-add may be to add date markers for holidays or important events. I.e. marking where Chinese New Year is on the timeseries might help users to easier draw correlations between the holiday and the periods of outbreak. (In fact, the Feb and Mar 2022 saw the highest number of new cases at around 372k each.)
 
 
-**Points of Interest** <br>
+**Some Points of Interest** <br>
 
 1. At least **2.6%** (152k/5.8m) of Singaporeans had covid on 1st March 2022. This number is likely greater because it discounts unreported cases and those that still had covid 7-days after reporting. <br>
 As of 9 July 2022, this number is at 1% (62k/5.8m), much lower than 1st March, but much higher than most other days. 
