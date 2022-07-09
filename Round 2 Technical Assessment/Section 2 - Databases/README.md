@@ -52,7 +52,7 @@ This implies that price and weight can be unique for each car, even if its of th
 
 # Explanation of Submission
 ## Schema
-With the assumptions and additional assumptions in mind, I've designed a specific schema and produced an Entity Relationship Diagram (ERD) to help visualise it.
+With the assumptions and additional assumptions in mind, I've designed a specific schema and produced an Entity Relationship Diagram (ERD) to help visualise it.<br>
 ![image info](./Entity_Relationship_Diagram.png)
 
 The schema is made of 4 tables: Customers, Employees, Manufacturers and Transactions. Customers, Employees and  Manufacturers have one-to-many relationships with Transactions.
@@ -71,7 +71,7 @@ COPY init.sql /docker-entrypoint-initdb.d/
 The Postgres image will run any .sql scripts in this location on init.
 
 # Usage (For Tasks) 
-The following describes how the sql statements in the prompt can be tested via command line. (Can be access more easily via pgAdmin4 if you have it installed.)
+The following describes how the sql statements in the prompt can be tested via command line. (Can be accessed more easily via pgAdmin4 if you have it installed.)
 
 1. Build docker-compose
 ```
@@ -120,5 +120,13 @@ ORDER BY "Total Sales" Desc
 Limit 3;
 ```
 
+```
+  ManufacturerId  |  Name  | Total Spending | Total Sales
+------------------+--------+----------------+-------------
+ 5362322661186481 | Toyota |         327200 |           2
+ 8700801130150749 | Subaru |         183000 |           1
+ 8769142801116024 | Nissan |         120000 |           1
+(3 rows)
+```
 
 
