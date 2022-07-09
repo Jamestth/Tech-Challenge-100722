@@ -1,0 +1,1 @@
+0 1 * * * cd / && /usr/local/bin/python pipeline.py >> data/cronlogs.txt
