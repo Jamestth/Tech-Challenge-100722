@@ -1,6 +1,6 @@
 <!-- Header -->
 <div>
-  <h1>Section 1 Machine Learning</h3>  
+  <h1>Section 1 Data Pipelines</h3>  
 </div>
 
 # Introduction
