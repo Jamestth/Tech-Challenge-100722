@@ -1,6 +1,6 @@
 <!-- Header -->
 <div>
-  <h1>Section 3 System Design<h3>  
+  <h1>Section 3: System Design<h3>  
 </div>
 
 # Introduction
