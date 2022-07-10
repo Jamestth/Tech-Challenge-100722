@@ -1,6 +1,6 @@
 <!-- Header -->
 <div>
-  <h1>Section 2 Databases</h3>  
+  <h1>Section 2: Databases</h3>  
 </div>
 
 # Introduction
