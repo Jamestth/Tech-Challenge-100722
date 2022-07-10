@@ -1,6 +1,6 @@
 <!-- Header -->
 <div>
-  <h1>Section 1 Data Pipelines</h3>  
+  <h1>Section 1: Data Pipelines</h3>  
 </div>
 
 # Introduction
@@ -47,11 +47,11 @@ Where the first row refers to the Orginal and the second row refers to the swape
 
 
 # Access
-Processed Data can be found in _output.csv_
+Processed Data can be found in [here!](output.csv)
 
-Pipeline can be found in _pipeline.py_
+Pipeline can be found in [here!](pipeline.py)
 
-Crontab is can be found in _crontab_
+Crontab is can be found in [here!](crontab)
 
 # Usage
 Once docker is started up, the _crontab_ would be scheduled and will run everyday at 1am. The schduled crontab would run _pipeline.py_ which will process dataset1.csv and dataset2.csv as per the instructions given in the prompt and will output a new file: _output.csv_ in the same folder<br>
