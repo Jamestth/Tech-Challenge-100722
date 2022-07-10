@@ -22,7 +22,7 @@ The prompt is as follows:<br>
 # Assumptions
 (1) The "separate web application which provides a stream of images using a Kafka stream" is another source of images to be processed. (I am a little unclear what the stream of image is for, hence I am assuming that it just needs to be processed.)
 
-(2) Assume original image does not have to be stored. Hence don't need to send Original to S3.
+(2) Assume original image does not have to be stored. Hence there is no need to send Original to S3.
 
 (3) Assume that there is an existing company database to store URL of S3 bucket images. If no database, then we can use AWS RDS or Redshift instead. 
 
