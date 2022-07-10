@@ -1,35 +1,44 @@
-
 <!-- Header -->
 <div>
-  <h1>Section 6 What is Data Engineering?</h3>  
+  <h1>Section 3 System Design<h3>  
 </div>
 
-
 # Introduction
+<<<<<<< HEAD:Round 2 Technical Assessment/Section 3 - System Design/README.md
+This section tackles the 3rd section of the Data Engineer Tech Challenge TAP. 
+=======
 This section tackles the 6th section of the Data Engineer Tech Challenge TAP. 
+>>>>>>> f41ea4290c18e45060bfd98ba232f82183859ce6:Round 2 Technical Assessment/Section 6 - Presentation/README.md
 
-The prompt is as follows:
->You are tasked to help an agency to consolidate data to reduce data silos over a 3 months period. You will prepare a presentation to executive leadership to influence them to sponsor this data engineering initiative.
+The prompt is as follows:<br>
+>Prepare a presentation to your project team on how you plan to design data infrastructure on the cloud for a company whose main business is in processing images. Your role is the `Tech Lead` for this project.
 >
->Your use-case can be any business function that you are familiar with. You should consider the different perspectives of the stakeholders. Do include a definition of the use case as well as be prepared to dive deep in technical considerations.
->Choose one of the following topics and prepare the presentation in relation to the scenario above:
+>The company has a web application which collects images uploaded by customers. The company also has a separate web application which provides a stream of images using a Kafka stream. The company’s software engineers have already some code written to process the images.
 >
->1. What is Data Engineering?
->2. Explain the value of using any Data Engineering concepts or technology needed to the solve data silos.
->3. What is a Data Warehouse?
+>The company would like to save processed images for a minimum of **7 days for archival purposes**. Ideally, the company would also want to be able to have some Business Intelligence (BI) on key statistics including number and type of images processed, and by which customers.
 >
->This is a 5 minute face to face presentation. The audience includes senior managers, including directors from technical as well as non-technical backgrounds.
+>Produce a system architecture diagram (e.g. Visio, Powerpoint) using any of the commercial cloud providers' ecosystem to explain your design. Please also indicate clearly if you have made any assumptions at any point.
 >
->Management is interested to hear what can be done with data engineering to solve the problem described above. Please exercise your own judgement to make any reasonable assumptions and submit the powerpoint presentation.
+>Share about the `pros` and `cons` of your design to justify the decisions you have made.
 
 
 
+# Assumptions
+(1) The "separate web application which provides a stream of images using a Kafka stream" is another source of images to be processed. (I am a little unclear what the stream of image is for, hence I am assuming that it just needs to be processed.)
 
-# Scenario Planning (Must Read before Viewing Slides)
-In this section I will describe the scenario and agency that I will base the presentation on. This may not be the actual scenario in the real world.<br>
+(2) Assume original image does not have to be stored. Hence don't need to send Original to S3.
 
-A*Star has more than 20 Research Institutes (RI) under its care. Each RI typically operates on its own which naturally lead data silos between the RIs. While data silos is generally better for data privacy and security, HQ believes that information sharing between RI is important as well. Information sharing can lead to more synergies between RIs and hence better and more effective use of resources. 
+(3) Assume that there is an existing company database to store URL of S3 bucket images. If no database, then we can use AWS RDS or Redshift instead. 
 
-Generally, RIs have their own database systems and do not share research data with HQ. Since RIs have their own Silos, it is very likely that different RIs may have conducted similar research without knowing that granular past research data may exist within other RIs, leading to redundancy. 
+(4) BI is only required for past 7 days data. I.e. no analysis required for historical data. If required, then metrics can either be exported from lambda to the database. 
 
+
+# Submission
+Slides can be accessed [here!](Cloud_Infrastructure_Pitch.pdf)
+
+<<<<<<< HEAD:Round 2 Technical Assessment/Section 3 - System Design/README.md
+System architecture diagram:<br>
+![here](Image_Processing_System_Design.png)
+=======
 In this scenario, I will be representing GovTech to present to A*Star HQ senior management on how data engineering can be used to encourage information sharing between RIs and benefit HQ at the same time. I will be advocating for a centralised Data Warehouse to fit the assessment criteria. (However, I think a Data Lake might be a better solution instead given the unstructured nature of research data)
+>>>>>>> f41ea4290c18e45060bfd98ba232f82183859ce6:Round 2 Technical Assessment/Section 6 - Presentation/README.md
