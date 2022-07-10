@@ -4,11 +4,7 @@
 </div>
 
 # Introduction
-<<<<<<< HEAD:Round 2 Technical Assessment/Section 3 - System Design/README.md
 This section tackles the 3rd section of the Data Engineer Tech Challenge TAP. 
-=======
-This section tackles the 6th section of the Data Engineer Tech Challenge TAP. 
->>>>>>> f41ea4290c18e45060bfd98ba232f82183859ce6:Round 2 Technical Assessment/Section 6 - Presentation/README.md
 
 The prompt is as follows:<br>
 >Prepare a presentation to your project team on how you plan to design data infrastructure on the cloud for a company whose main business is in processing images. Your role is the `Tech Lead` for this project.
@@ -36,9 +32,5 @@ The prompt is as follows:<br>
 # Submission
 Slides can be accessed [here!](Cloud_Infrastructure_Pitch.pdf)
 
-<<<<<<< HEAD:Round 2 Technical Assessment/Section 3 - System Design/README.md
 System architecture diagram:<br>
 ![here](Image_Processing_System_Design.png)
-=======
-In this scenario, I will be representing GovTech to present to A*Star HQ senior management on how data engineering can be used to encourage information sharing between RIs and benefit HQ at the same time. I will be advocating for a centralised Data Warehouse to fit the assessment criteria. (However, I think a Data Lake might be a better solution instead given the unstructured nature of research data)
->>>>>>> f41ea4290c18e45060bfd98ba232f82183859ce6:Round 2 Technical Assessment/Section 6 - Presentation/README.md
