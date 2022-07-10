@@ -33,3 +33,5 @@ A*Star has more than 20 Research Institutes (RI) under its care. Each RI typical
 Generally, RIs have their own database systems and do not share research data with HQ. Since RIs have their own Silos, it is very likely that different RIs may have conducted similar research without knowing that usable granular past research data may exist within other RIs, leading to redundancy. 
 
 In this scenario, I will be representing GovTech to present to A*Star HQ senior management on how data engineering can be used to encourage information sharing between RIs and benefit HQ at the same time. I will be advocating for a centralised Data Warehouse to fit the assessment criteria. (However, I think a Data Lake might be a better solution instead given the unstructured nature of research data)
+
+Slides can be found [here!](https://github.com/Jamestth/Tech-Challenge-100722/blob/main/Round%202%20Technical%20Assessment/Section%206%20-%20Presentation/AStar%20Data%20Warehouse.pdf)
