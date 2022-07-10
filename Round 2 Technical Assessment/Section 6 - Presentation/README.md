@@ -1,7 +1,7 @@
 
 <!-- Header -->
 <div>
-  <h1>Section 6 What is Data Engineering?</h3>  
+  <h1>Section 6: What is Data Engineering?</h3>  
 </div>
 
 
@@ -30,6 +30,6 @@ In this section I will describe the scenario and agency that I will base the pre
 
 A*Star has more than 20 Research Institutes (RI) under its care. Each RI typically operates on its own which naturally lead data silos between the RIs. While data silos is generally better for data privacy and security, HQ believes that information sharing between RI is important as well. Information sharing can lead to more synergies between RIs and hence better and more effective use of resources. 
 
-Generally, RIs have their own database systems and do not share research data with HQ. Since RIs have their own Silos, it is very likely that different RIs may have conducted similar research without knowing that granular past research data may exist within other RIs, leading to redundancy. 
+Generally, RIs have their own database systems and do not share research data with HQ. Since RIs have their own Silos, it is very likely that different RIs may have conducted similar research without knowing that usable granular past research data may exist within other RIs, leading to redundancy. 
 
 In this scenario, I will be representing GovTech to present to A*Star HQ senior management on how data engineering can be used to encourage information sharing between RIs and benefit HQ at the same time. I will be advocating for a centralised Data Warehouse to fit the assessment criteria. (However, I think a Data Lake might be a better solution instead given the unstructured nature of research data)
