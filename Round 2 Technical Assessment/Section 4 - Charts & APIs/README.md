@@ -1,7 +1,7 @@
 
 <!-- Header -->
 <div>
-  <h1>Section 4 Charts and APIs</h3>  
+  <h1>Section 4: Charts and APIs</h3>  
 </div>
 
 
