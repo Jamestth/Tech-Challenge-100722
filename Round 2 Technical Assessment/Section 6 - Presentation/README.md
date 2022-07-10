@@ -6,7 +6,7 @@
 
 
 # Introduction
-This section tackles the 1st section of the Data Engineer Tech Challenge TAP. 
+This section tackles the 6th section of the Data Engineer Tech Challenge TAP. 
 
 The prompt is as follows:
 >You are tasked to help an agency to consolidate data to reduce data silos over a 3 months period. You will prepare a presentation to executive leadership to influence them to sponsor this data engineering initiative.
