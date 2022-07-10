@@ -1,6 +1,6 @@
 <!-- Header -->
 <div>
-  <h1>Section 5 Machine Learning</h3>  
+  <h1>Section 5: Machine Learning</h3>  
 </div>
 
 # Introduction
@@ -8,7 +8,7 @@ This section tackles the 5th section of the Data Engineer Tech Challenge TAP.
 
 The prompt is as follows:
 >
->Using the dataset from https://archive.ics.uci.>edu/ml/datasets/Car+Evaluation, create a >machine learning model to predict the buying >price given the following parameters:
+>Using the dataset from https://archive.ics.uci.edu/ml/datasets/Car+Evaluation, create a >machine learning model to predict the buying price given the following parameters:
 >
 >- Maintenance = High
 >- Number of doors = 4
