@@ -26,7 +26,7 @@ The prompt is as follows:<br>
 
 (3) Assume that there is an existing company database to store URL of S3 bucket images. If no database, then we can use AWS RDS or Redshift instead. 
 
-(4) BI is only required for past 7 days data. I.e. no analysis required for historical data. If required, then metrics can either be exported from lambda to the database. 
+(4) BI is only required for past 7 days data. I.e. no analysis required for historical data. If required, then metrics can be sent from lambda to the database instead. 
 
 
 # Submission
